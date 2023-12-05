@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mynginxpod
+  labels:
+    app: mynginx
+spec:
+  containers:
+  - name: mynginxcontainer
+    image: ryanstout19/devops-tooling-nginx:latest
