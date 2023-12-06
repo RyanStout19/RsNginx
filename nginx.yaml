@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
   - name: mynginxcontainer
-    image: ryanstout19/devops-tooling-nginx:latest
+    image: ryanstout19/devops-tooling-nginx:v1
